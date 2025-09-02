@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.caixa {
+  background: #fff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botão */
+button {
+  background: blue;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 100%;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+/* Radios e checkboxes alinhados */
+.radio-group,
+.checkboxes {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.radio-group label,
+.checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+.radio-group input,
+.checkboxes input {
+  width: auto;
+  margin: 0;
+}
